@@ -19,9 +19,9 @@ public class Snake {
         direction = Direction.D;
         body = new ArrayList<>();
 
-        body.add(new Point(2, 5));
-        body.add(new Point(2, 4));
-        body.add(new Point(2, 3));
+        body.add(new Point(3, 6));
+        body.add(new Point(3, 5));
+        body.add(new Point(3, 4));
     }
 
     public void draw(Graphics g) {
